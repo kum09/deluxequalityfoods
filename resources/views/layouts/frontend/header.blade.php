@@ -144,7 +144,7 @@
             <ul class="menu menu--left" id="left-menu">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
-                <li><a href="products.php">Products</a></li>
+                <li><a href="{{route('frontend.products')}}">Products</a></li>
             </ul>
         </div>
         <a class="ps-logo" href="index.php"><img src="{{url('public/frontend/assets/images/logo.png')}}" alt=""></a>

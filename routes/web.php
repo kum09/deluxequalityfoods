@@ -30,6 +30,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/', [FrontendController::class, 'Home'])->name('frontend.home');
+Route::get('/products', [FrontendController::class, 'Products'])->name('frontend.products');
 
 
 

@@ -10,4 +10,7 @@ class FrontendController extends Controller
     public function Home(){
         return view('frontend.home');
     }
+    public function Products(){
+        return view('frontend.product');
+    }
 }
